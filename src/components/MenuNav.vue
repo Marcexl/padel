@@ -14,6 +14,14 @@ const items = ref([
         icon: 'pi pi-home'
     },
     {
+        label: 'Mi cuenta',
+        icon: 'pi pi-user'
+    },
+    {
+        label: 'Terminos y condiciones',
+        icon: 'pi pi-file'
+    },
+    {
         label: 'Logout',
         icon: 'pi pi-power-off',
         command: () => logout()
@@ -28,9 +36,9 @@ const logout = () => {
 </script>
 
 <template>
-    <Menubar :model="items">
+    <Menubar :model="items" class="">
         <template #start>
-            <div class="pr-5">Padel App</div>
+            <div class="pr-5"><img src="../assets/images/logo-horiz.png" class="h-3rem"></div>
         </template>
     </Menubar>
 </template>
