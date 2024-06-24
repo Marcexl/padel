@@ -1,7 +1,19 @@
 <script setup>
 import MenuNav from '../../components/MenuNav.vue';
 import Card from 'primevue/card';
+import { v4 as uuidv4 } from 'uuid';
 
+const grupos = {
+  id: uuidv4(),
+  name: 'Los pibis',
+  members: [
+    { id: 1, name: 'Ariel Fassio', nickname: 'gordi1' },
+    { id: 2, name: 'Diego Quieta', nickname: 'gordi2' },
+    { id: 3, name: 'Pablo Fassio', nickname: 'Rey' },
+    { id: 4, name: 'Manuel Shibuya', nickname: 'Manu' },
+  ]
+}
+console.log(grupos);
 </script>
 <template>
   <MenuNav />

@@ -12,10 +12,12 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "luxon": "^3.4.4",
     "pinia": "^2.1.7",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primevue": "^3.52.0",
+    "uuid": "^10.0.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
