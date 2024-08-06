@@ -26,7 +26,7 @@ const login = () => {
     <Card class="w-full relative">
       <template #title>
         <img src="../assets/images/logo.png" class="w-5rem mb-3 m-auto block" alt="logo" />
-        <div class="text-center">Iniciar Sesion</div>
+        <div class="text-center">Paddle App</div>
       </template>
       <template #content>
         <form @submit.prevent="login" class="flex flex-column p-2 m-auto">
